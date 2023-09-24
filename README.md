@@ -70,6 +70,17 @@ Feel free to copy any of them over to `gpt_functions` if you want to use them.
 
 See the README in the directory for more details.
 
+##  Docker
+
+To build Docker image enter your keys in the Dockerfile and run 
+```
+docker build -t rotary-gpt .
+```
+to launch then run
+```
+docker run -p 5060:5060 rotary-gpt
+```
+
 ## License
 
 MIT
